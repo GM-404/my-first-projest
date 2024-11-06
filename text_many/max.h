@@ -1,1 +1,2 @@
-int max(int &a, int &b);
+
+int max(int &num1, int &num2);
