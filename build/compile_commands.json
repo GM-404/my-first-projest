@@ -1,14 +1,20 @@
 [
 {
   "directory": "F:/text/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\my_cmake_swap.dir\\main.cpp.obj -c F:\\text\\text_many\\main.cpp",
-  "file": "F:/text/text_many/main.cpp",
-  "output": "CMakeFiles/my_cmake_swap.dir/main.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/my_cmake_swap.dir/includes_CXX.rsp -g -o CMakeFiles\\my_cmake_swap.dir\\source\\main.cpp.obj -c F:\\text\\text_many\\source\\main.cpp",
+  "file": "F:/text/text_many/source/main.cpp",
+  "output": "CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj"
 },
 {
   "directory": "F:/text/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\my_cmake_swap.dir\\swap.cpp.obj -c F:\\text\\text_many\\swap.cpp",
-  "file": "F:/text/text_many/swap.cpp",
-  "output": "CMakeFiles/my_cmake_swap.dir/swap.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/my_cmake_swap.dir/includes_CXX.rsp -g -o CMakeFiles\\my_cmake_swap.dir\\source\\swap.cpp.obj -c F:\\text\\text_many\\source\\swap.cpp",
+  "file": "F:/text/text_many/source/swap.cpp",
+  "output": "CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj"
+},
+{
+  "directory": "F:/text/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/my_cmake_swap.dir/includes_CXX.rsp -g -o CMakeFiles\\my_cmake_swap.dir\\source\\max.cpp.obj -c F:\\text\\text_many\\source\\max.cpp",
+  "file": "F:/text/text_many/source/max.cpp",
+  "output": "CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj"
 }
 ]

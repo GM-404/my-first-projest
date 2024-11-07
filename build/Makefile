@@ -128,53 +128,77 @@ my_cmake_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/build
 .PHONY : my_cmake_swap/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+source/main.obj: source/main.cpp.obj
+.PHONY : source/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+source/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj
+.PHONY : source/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+source/main.i: source/main.cpp.i
+.PHONY : source/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/main.cpp.i
-.PHONY : main.cpp.i
+source/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+source/main.s: source/main.cpp.s
+.PHONY : source/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/main.cpp.s
-.PHONY : main.cpp.s
+source/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
 
-swap.obj: swap.cpp.obj
-.PHONY : swap.obj
+source/max.obj: source/max.cpp.obj
+.PHONY : source/max.obj
 
 # target to build an object file
-swap.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/swap.cpp.obj
-.PHONY : swap.cpp.obj
+source/max.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj
+.PHONY : source/max.cpp.obj
 
-swap.i: swap.cpp.i
-.PHONY : swap.i
+source/max.i: source/max.cpp.i
+.PHONY : source/max.i
 
 # target to preprocess a source file
-swap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/swap.cpp.i
-.PHONY : swap.cpp.i
+source/max.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/max.cpp.i
+.PHONY : source/max.cpp.i
 
-swap.s: swap.cpp.s
-.PHONY : swap.s
+source/max.s: source/max.cpp.s
+.PHONY : source/max.s
 
 # target to generate assembly for a file
-swap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/swap.cpp.s
-.PHONY : swap.cpp.s
+source/max.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/max.cpp.s
+.PHONY : source/max.cpp.s
+
+source/swap.obj: source/swap.cpp.obj
+.PHONY : source/swap.obj
+
+# target to build an object file
+source/swap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj
+.PHONY : source/swap.cpp.obj
+
+source/swap.i: source/swap.cpp.i
+.PHONY : source/swap.i
+
+# target to preprocess a source file
+source/swap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/swap.cpp.i
+.PHONY : source/swap.cpp.i
+
+source/swap.s: source/swap.cpp.s
+.PHONY : source/swap.s
+
+# target to generate assembly for a file
+source/swap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/swap.cpp.s
+.PHONY : source/swap.cpp.s
 
 # Help Target
 help:
@@ -185,12 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_cmake_swap
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... swap.obj
-	@echo ... swap.i
-	@echo ... swap.s
+	@echo ... source/main.obj
+	@echo ... source/main.i
+	@echo ... source/main.s
+	@echo ... source/max.obj
+	@echo ... source/max.i
+	@echo ... source/max.s
+	@echo ... source/swap.obj
+	@echo ... source/swap.i
+	@echo ... source/swap.s
 .PHONY : help
 
 

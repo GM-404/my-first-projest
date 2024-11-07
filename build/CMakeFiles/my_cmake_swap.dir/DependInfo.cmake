@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/text/text_many/main.cpp" "CMakeFiles/my_cmake_swap.dir/main.cpp.obj" "gcc" "CMakeFiles/my_cmake_swap.dir/main.cpp.obj.d"
-  "F:/text/text_many/swap.cpp" "CMakeFiles/my_cmake_swap.dir/swap.cpp.obj" "gcc" "CMakeFiles/my_cmake_swap.dir/swap.cpp.obj.d"
+  "F:/text/text_many/source/main.cpp" "CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj" "gcc" "CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj.d"
+  "F:/text/text_many/source/max.cpp" "CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj" "gcc" "CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj.d"
+  "F:/text/text_many/source/swap.cpp" "CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj" "gcc" "CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

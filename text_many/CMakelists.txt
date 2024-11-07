@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.10)
 project(MYSWAP)     
 
 # 在 CMakeLists.txt 中添加
-include_directories("F:/text/text_many/include")
+include_directories(include)
 
-add_executable(my_cmake_swap main.cpp swap.cpp max.cpp)
-   
+add_executable(my_cmake_swap 
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/main.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/swap.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/max.cpp)

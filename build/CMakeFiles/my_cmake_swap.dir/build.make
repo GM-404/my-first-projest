@@ -71,49 +71,68 @@ include CMakeFiles/my_cmake_swap.dir/flags.make
 CMakeFiles/my_cmake_swap.dir/codegen:
 .PHONY : CMakeFiles/my_cmake_swap.dir/codegen
 
-CMakeFiles/my_cmake_swap.dir/main.cpp.obj: CMakeFiles/my_cmake_swap.dir/flags.make
-CMakeFiles/my_cmake_swap.dir/main.cpp.obj: F:/text/text_many/main.cpp
-CMakeFiles/my_cmake_swap.dir/main.cpp.obj: CMakeFiles/my_cmake_swap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_cmake_swap.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_cmake_swap.dir/main.cpp.obj -MF CMakeFiles\my_cmake_swap.dir\main.cpp.obj.d -o CMakeFiles\my_cmake_swap.dir\main.cpp.obj -c F:\text\text_many\main.cpp
+CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: CMakeFiles/my_cmake_swap.dir/flags.make
+CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: CMakeFiles/my_cmake_swap.dir/includes_CXX.rsp
+CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: F:/text/text_many/source/main.cpp
+CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: CMakeFiles/my_cmake_swap.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj -MF CMakeFiles\my_cmake_swap.dir\source\main.cpp.obj.d -o CMakeFiles\my_cmake_swap.dir\source\main.cpp.obj -c F:\text\text_many\source\main.cpp
 
-CMakeFiles/my_cmake_swap.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_cmake_swap.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\text\text_many\main.cpp > CMakeFiles\my_cmake_swap.dir\main.cpp.i
+CMakeFiles/my_cmake_swap.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_cmake_swap.dir/source/main.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\text\text_many\source\main.cpp > CMakeFiles\my_cmake_swap.dir\source\main.cpp.i
 
-CMakeFiles/my_cmake_swap.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_cmake_swap.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\text\text_many\main.cpp -o CMakeFiles\my_cmake_swap.dir\main.cpp.s
+CMakeFiles/my_cmake_swap.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_cmake_swap.dir/source/main.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\text\text_many\source\main.cpp -o CMakeFiles\my_cmake_swap.dir\source\main.cpp.s
 
-CMakeFiles/my_cmake_swap.dir/swap.cpp.obj: CMakeFiles/my_cmake_swap.dir/flags.make
-CMakeFiles/my_cmake_swap.dir/swap.cpp.obj: F:/text/text_many/swap.cpp
-CMakeFiles/my_cmake_swap.dir/swap.cpp.obj: CMakeFiles/my_cmake_swap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_cmake_swap.dir/swap.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_cmake_swap.dir/swap.cpp.obj -MF CMakeFiles\my_cmake_swap.dir\swap.cpp.obj.d -o CMakeFiles\my_cmake_swap.dir\swap.cpp.obj -c F:\text\text_many\swap.cpp
+CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj: CMakeFiles/my_cmake_swap.dir/flags.make
+CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj: CMakeFiles/my_cmake_swap.dir/includes_CXX.rsp
+CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj: F:/text/text_many/source/swap.cpp
+CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj: CMakeFiles/my_cmake_swap.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj -MF CMakeFiles\my_cmake_swap.dir\source\swap.cpp.obj.d -o CMakeFiles\my_cmake_swap.dir\source\swap.cpp.obj -c F:\text\text_many\source\swap.cpp
 
-CMakeFiles/my_cmake_swap.dir/swap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_cmake_swap.dir/swap.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\text\text_many\swap.cpp > CMakeFiles\my_cmake_swap.dir\swap.cpp.i
+CMakeFiles/my_cmake_swap.dir/source/swap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_cmake_swap.dir/source/swap.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\text\text_many\source\swap.cpp > CMakeFiles\my_cmake_swap.dir\source\swap.cpp.i
 
-CMakeFiles/my_cmake_swap.dir/swap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_cmake_swap.dir/swap.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\text\text_many\swap.cpp -o CMakeFiles\my_cmake_swap.dir\swap.cpp.s
+CMakeFiles/my_cmake_swap.dir/source/swap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_cmake_swap.dir/source/swap.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\text\text_many\source\swap.cpp -o CMakeFiles\my_cmake_swap.dir\source\swap.cpp.s
+
+CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj: CMakeFiles/my_cmake_swap.dir/flags.make
+CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj: CMakeFiles/my_cmake_swap.dir/includes_CXX.rsp
+CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj: F:/text/text_many/source/max.cpp
+CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj: CMakeFiles/my_cmake_swap.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj -MF CMakeFiles\my_cmake_swap.dir\source\max.cpp.obj.d -o CMakeFiles\my_cmake_swap.dir\source\max.cpp.obj -c F:\text\text_many\source\max.cpp
+
+CMakeFiles/my_cmake_swap.dir/source/max.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_cmake_swap.dir/source/max.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\text\text_many\source\max.cpp > CMakeFiles\my_cmake_swap.dir\source\max.cpp.i
+
+CMakeFiles/my_cmake_swap.dir/source/max.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_cmake_swap.dir/source/max.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\text\text_many\source\max.cpp -o CMakeFiles\my_cmake_swap.dir\source\max.cpp.s
 
 # Object files for target my_cmake_swap
 my_cmake_swap_OBJECTS = \
-"CMakeFiles/my_cmake_swap.dir/main.cpp.obj" \
-"CMakeFiles/my_cmake_swap.dir/swap.cpp.obj"
+"CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj" \
+"CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj" \
+"CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj"
 
 # External object files for target my_cmake_swap
 my_cmake_swap_EXTERNAL_OBJECTS =
 
-my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/main.cpp.obj
-my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/swap.cpp.obj
+my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj
+my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj
+my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj
 my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/build.make
 my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/linkLibs.rsp
 my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/objects1.rsp
 my_cmake_swap.exe: CMakeFiles/my_cmake_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_cmake_swap.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\text\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable my_cmake_swap.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_cmake_swap.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
