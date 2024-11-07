@@ -3,16 +3,20 @@
         {
             "name": "windows-gcc-x64",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "F:\\text\\text_many\\include\\**"
+                //"F:\\text\\build\\**"
             ],
             "compilerPath": "C:/mingw64/bin/gcc.exe",
             "cStandard": "${default}",
             "cppStandard": "${default}",
             "intelliSenseMode": "windows-gcc-x64",
             "compilerArgs": [
-                ""
+                "F:\\text\\build\\compile_commands.json"
             ],
-            "configurationProvider": "ms-vscode.cmake-tools"
+            //"compileCommands": "F:\\text\\build\\compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "mergeConfigurations": true
         }
     ],
     "version": 4
