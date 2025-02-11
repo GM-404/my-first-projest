@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream>        //包含头文件iostream
 #include "swap.h"
 #include "max.h"
 
-using namespace std;
+using namespace std;       //使用标准命名空间
 
 int main (int argc, char **argv)
 {
