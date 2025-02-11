@@ -1,9 +1,9 @@
-#include <iostream>
+#include <iostream>        //包含头文件iostream
 #include "swap.h"
 #include "max.h"
 #include "logs.h"
 
-using namespace std;
+using namespace std;       //使用标准命名空间
 
 //定义全局变量
 int val1 = 1;
