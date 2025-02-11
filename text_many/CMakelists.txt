@@ -1,4 +1,7 @@
+#项目最低版本要求
 cmake_minimum_required(VERSION 3.10)
+
+# 项目名称
 project(MYSWAP)     
 
 # 在 CMakeLists.txt 中添加
