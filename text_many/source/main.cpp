@@ -4,6 +4,7 @@
 #include "logs.h"
 
 using namespace std;       //使用标准命名空间
+using namespace std;       //使用标准命名空间
 
 //定义全局变量
 int val1 = 1;
