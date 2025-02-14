@@ -1,29 +1,11 @@
 #include <iostream>
 #include "swap.h"
 #include "max.h"
+#include "logs.h"
+
 using namespace std;
 
-/*
-//不包头文件直接声明函数也是可以的
-int max(int &num1, int &num2);    //max功能
-*/
-int min(int &num1, int &num2)    //min功能
-{
-    int min;
-    if (num1 < num2) {
-        min = num1;
-    } 
-    else{
-        min = num2;
-    }
-    log("the_min_val",5);
-    return min;     //返回最小值
-}
- //打印函数
-void log(const char *msg , int &val) 
-{
-    cout << msg << endl;     cout << val << endl;
-}
+
 int main (int argc, char **argv)
 {
     int val1 = 10;
@@ -46,5 +28,6 @@ int main (int argc, char **argv)
     the_min_val = min(val1,val2);
 
     //  cin.get();       //输入函数
+    log("hello world");
     return 0;
 }

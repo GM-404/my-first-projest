@@ -128,6 +128,30 @@ my_cmake_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/build
 .PHONY : my_cmake_swap/fast
 
+source/logs.obj: source/logs.cpp.obj
+.PHONY : source/logs.obj
+
+# target to build an object file
+source/logs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj
+.PHONY : source/logs.cpp.obj
+
+source/logs.i: source/logs.cpp.i
+.PHONY : source/logs.i
+
+# target to preprocess a source file
+source/logs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/logs.cpp.i
+.PHONY : source/logs.cpp.i
+
+source/logs.s: source/logs.cpp.s
+.PHONY : source/logs.s
+
+# target to generate assembly for a file
+source/logs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_cmake_swap.dir\build.make CMakeFiles/my_cmake_swap.dir/source/logs.cpp.s
+.PHONY : source/logs.cpp.s
+
 source/main.obj: source/main.cpp.obj
 .PHONY : source/main.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_cmake_swap
+	@echo ... source/logs.obj
+	@echo ... source/logs.i
+	@echo ... source/logs.s
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s

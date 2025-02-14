@@ -1,0 +1,6 @@
+# ninja log v6
+5	35	7612330121876972	CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj	d0f5abde693ba140
+5	35	7612330121886944	CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj	b96559d8d4a6a237
+6	397	7612330121886944	CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj	941c803a05dc9bd9
+3	398	7612330121867003	CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj	527e58786926e3c9
+398	569	7612330125808826	my_cmake_swap.exe	6bdc6bf2460cebb7

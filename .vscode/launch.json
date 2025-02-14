@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "${workspaceFolder}",
-      "program": "${fileDirname}\\{fileB${fileBasenameNoExtension}.exe",
+      "program": "F:\\text\\build\\my_cmake_swap.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -10,4 +10,5 @@ include_directories(include)
 add_executable(my_cmake_swap 
     ${CMAKE_CURRENT_SOURCE_DIR}/source/main.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/source/swap.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/max.cpp)
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/max.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/logs.cpp)

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj"
+  "CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj.d"
   "CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj"
   "CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj.d"
   "CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj"

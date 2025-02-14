@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/addr2line.exe"
+			"value" : "D:/SDK/w64devkit/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/ar.exe"
+			"value" : "D:/SDK/w64devkit/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -94,22 +94,6 @@
 			"value" : "0"
 		},
 		{
-			"name" : "CMAKE_COLOR_MAKEFILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable color output during build."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
 			"name" : "CMAKE_COMMAND",
 			"properties" : 
 			[
@@ -155,11 +139,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/g++.exe"
+			"type" : "STRING",
+			"value" : "D:/SDK/w64devkit/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ar.exe"
+			"value" : "D:/SDK/w64devkit/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ranlib.exe"
+			"value" : "D:/SDK/w64devkit/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -299,11 +283,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc.exe"
+			"type" : "STRING",
+			"value" : "D:/SDK/w64devkit/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -319,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ar.exe"
+			"value" : "D:/SDK/w64devkit/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -335,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/gcc-ranlib.exe"
+			"value" : "D:/SDK/w64devkit/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -447,7 +431,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/dlltool.exe"
+			"value" : "D:/SDK/w64devkit/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -554,6 +538,22 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_EXPORT_BUILD_DATABASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of build database during the build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
 			"properties" : 
 			[
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MinGW Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/ld.exe"
+			"value" : "D:/SDK/w64devkit/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -699,11 +699,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "Program used to build from build.ninja files."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/mingw32-make.exe"
+			"value" : "D:/SDK/Ninja/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/nm.exe"
+			"value" : "D:/SDK/w64devkit/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/objcopy.exe"
+			"value" : "D:/SDK/w64devkit/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/objdump.exe"
+			"value" : "D:/SDK/w64devkit/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -907,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/ranlib.exe"
+			"value" : "D:/SDK/w64devkit/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -923,7 +923,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/windres.exe"
+			"value" : "D:/SDK/w64devkit/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/readelf.exe"
+			"value" : "CMAKE_READELF-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/mingw64/bin/strip.exe"
+			"value" : "D:/SDK/w64devkit/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "FALSE"
+			"value" : "TRUE"
 		},
 		{
 			"name" : "_CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "FALSE"
+			"value" : "TRUE"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
