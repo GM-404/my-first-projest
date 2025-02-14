@@ -16,6 +16,7 @@ int min(int &num1, int &num2)    //min功能
     else{
         min = num2;
     }
+    log("the_min_val",5);
     return min;     //返回最小值
 }
  //打印函数
@@ -43,7 +44,6 @@ int main (int argc, char **argv)
     the_max_val = max(val1,val2);
     cout << "the_max_val =  "<<the_max_val << endl;
     the_min_val = min(val1,val2);
-    log("the_min_val",the_min_val);
 
     //  cin.get();       //输入函数
     return 0;
