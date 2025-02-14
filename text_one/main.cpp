@@ -34,6 +34,7 @@ int main (int argc, char **argv)
     cout << "Before swap:" << endl;
     cout << "val1 = "<<val1 << endl;
     cout << "val2 = "<<val2 << endl;
+    // 输入函数  cin.get();
 
     swap(val1, val2);
     max_one  = max(val1, val2);
