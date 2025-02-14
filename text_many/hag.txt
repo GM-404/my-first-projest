@@ -1,0 +1,22 @@
+    // char count;
+    // cin.get(count);       //输入函数  注意这个函数是char类型，所以输入读取的是ASCII码    
+    // for(int i = 0; i < count; i++)   //循环函数
+    // {
+    //     log("hello world");     //打印提示函数
+    // }
+
+
+    // char count;
+    // cin.get(count);       //输入函数  注意这个函数是char类型，所以输入读取的是ASCII码    
+    // for(int i = 0; i < count; i++)   //循环函数
+    // {
+    //     if(i %2 == 0)   //判断函数
+    //     {
+    //         cout << "i = " << i << endl;    //打印函数
+    //         log("hello world");     //打印提示函数
+    //     }
+    //     else
+    //     {
+    //        continue;    //跳出本次循环
+    //     }
+    // }

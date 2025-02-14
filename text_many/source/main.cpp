@@ -5,29 +5,24 @@
 
 using namespace std;
 
+//定义全局变量
+int val1 = 1;
+int val2 = 2;
+float  val3 = 10.3f;
+double val4 = 10.3;
+bool val5 = true;
+int the_max_val;
+int the_min_val;
 
 int main (int argc, char **argv)
 {
-    int val1 = 10;
-    int val2 = 20;
-    int the_max_val;
-    int the_min_val;
+   
+    logs_var_before();     //打印出来先前变量的相关信息
 
-    cout << "Before swap:" << endl;
-    cout << "val1 = "<<val1 << endl;
-    cout << "val2 = "<<val2 << endl;
+    swap(val1, val2);   //交换两个变量的值  
 
-    swap(val1, val2);
-
-    cout << "After swap:" << endl;
-    cout << "val1 = "<<val1 << endl;
-    cout << "val2 = "<<val2 << endl;
-
-    the_max_val = max(val1,val2);
-    cout << "the_max_val =  "<<the_max_val << endl;
-    the_min_val = min(val1,val2);
+    logs_var_aftre();      //打印出来后来变量的相关信息
 
     //  cin.get();       //输入函数
-    log("hello world");
     return 0;
 }
