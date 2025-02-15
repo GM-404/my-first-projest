@@ -3,29 +3,7 @@
 #include "max.h"
 #include "logs.h"
 
-using namespace std;       //使用标准命名空间
-
-//定义全局变量
-int val1 = 1;
-int val2 = 2;
-float  val3 = 10.3f;
-double val4 = 10.3;
-bool val5 = true;
-int the_max_val;
-int the_min_val;
-
-
-class Player
-{
-public:                          //公共的，这样main函数才能访问到
-    int x, y;
-    int speed;
-};
-void move(Player &player,int x, int y)
-{
-    player.x += x * player.speed;
-    player.y += y * player.speed;
-}
+using namespace std;
 
 int main (int argc, char **argv)
 {
