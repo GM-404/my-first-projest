@@ -35,6 +35,7 @@ int main (int argc, char **argv)
     player.speed = 1;
     log("at main give a submit");    //打印提示函数
     log("at main change");    //打印提示函数
+    log("at main change again");    //打印提示函数
     
     //logs_var_before();     //打印出来先前变量的相关信息
 
