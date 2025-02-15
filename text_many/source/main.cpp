@@ -33,7 +33,7 @@ int main (int argc, char **argv)
     player.x = 1;
     player.y = 1;
     player.speed = 1;
-    log("at main give a submit");    //打印提示函数
+    log("在dev分支上添加的代码");
     //logs_var_before();     //打印出来先前变量的相关信息
 
     // swap(val1, val2);   //交换两个变量的值  
