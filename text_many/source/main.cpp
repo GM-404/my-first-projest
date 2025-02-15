@@ -33,6 +33,7 @@ int main (int argc, char **argv)
     player.x = 1;
     player.y = 1;
     player.speed = 1;
+    log("在dev分支上添加的代码");
     log("at main give a submit");    //打印提示函数
     log("at main change");    //打印提示函数
     log("at main change again");    //打印提示函数
