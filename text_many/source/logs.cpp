@@ -17,6 +17,11 @@ extern int the_min_val;
  {
      cout << msg << endl;    
  }
+ void logs_int_mes(int var)  //打印int类型的变量
+ {
+     cout <<var << endl;
+ }
+
  //先前变量信息
  void logs_var_before()
  {

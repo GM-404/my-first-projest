@@ -18,5 +18,34 @@
     //     else
     //     {
     //        continue;    //跳出本次循环
+              break        //结束这个for
     //     }
     // }
+
+
+//指针
+    int var = 9;    //局部变量
+    //void* ptr = nullptr;    //空指针
+    //void* ptr = &var;    //空指针  指向局部变量的地址
+    int* p = &var;    //指针变量  
+    *p = 10;    //逆向使用指针变量赋值
+    logs_int_message(var);    //打印int变量信息  
+    
+    char* buffer = new char[8];    //动态分配8字节内存，指向堆内存首地址
+    char** buffer2 = &buffer;    //二级指针指向堆内存首地址
+
+//引用
+    int a = 1;
+    int& b =a;     //定义一个变量b，并用引用b来引用变量a   这里的b不占用内存空间
+    Increment(&a);  //对a进行加1操作   &a是取a的地址
+    logs_int_mes(a);  //打印a的值
+
+    void Increment(int* var)
+{
+    //(var)++;    //这里是对指针的操作，不是对指针指向的值的操作，即对var指向的地址进行加1操作
+    (*var)++;   //这里是对指针指向的值的操作，即对var指向的地址的值进行加1操作  加括号的意思是先取值再加1
+}
+
+//结构体
+
+
