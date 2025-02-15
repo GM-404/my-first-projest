@@ -36,9 +36,9 @@ int main (int argc, char **argv)
 
     logs_var_before();     //打印出来先前变量的相关信息
 
-    swap(val1, val2);   //交换两个变量的值  
+    // swap(val1, val2);   //交换两个变量的值  
 
-    logs_var_aftre();      //打印出来后来变量的相关信息
+    // logs_var_aftre();      //打印出来后来变量的相关信息
 
     //cin.get();       //输入函数
     return 0;

@@ -1,8 +1,12 @@
 # ninja log v6
+3	359	7612860672659626	CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj	527e58786926e3c9
 3	174	7612859754731135	CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj	d0f5abde693ba140
-3	365	7612859947593782	CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj	527e58786926e3c9
 3	197	7612859754819120	CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj	b96559d8d4a6a237
 4	593	7612859754819120	CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj	941c803a05dc9bd9
-593	829	7612859760706335	my_cmake_swap.exe	6bdc6bf2460cebb7
-3	359	7612860672659626	CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj	527e58786926e3c9
 359	528	7612860676152693	my_cmake_swap.exe	6bdc6bf2460cebb7
+3	275	7612890130340362	build.ninja	757e4b7efb823757
+2	393	7612890130491192	CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj	d0f5abde693ba140
+3	393	7612890130501171	CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj	b96559d8d4a6a237
+3	617	7612890130511147	CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj	941c803a05dc9bd9
+1	624	7612890130491192	CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj	527e58786926e3c9
+624	1081	7612890136711417	my_cmake_swap.exe	6bdc6bf2460cebb7
