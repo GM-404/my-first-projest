@@ -14,29 +14,13 @@ bool val5 = true;
 int the_max_val;
 int the_min_val;
 
-
-class Player
-{
-public:                          //公共的，这样main函数才能访问到
-    int x, y;
-    int speed;
-};
-void move(Player &player,int x, int y)
-{
-    player.x += x * player.speed;
-    player.y += y * player.speed;
-}
-
 int main (int argc, char **argv)
 {
-    Player player;
-    player.x = 1;
-    player.y = 1;
-    player.speed = 1;
-    log("在dev分支上添加的代码");
-    log("at main give a submit");    //打印提示函数
-    log("at main change");    //打印提示函数
-    log("at main change again");    //打印提示函数
+    LOG log;
+    log.SetLevel(LogLevelInfo);
+    log.Error("Hello");
+    log.Warn("Hello");  
+    log.Info("Hello");  
     
     //logs_var_before();     //打印出来先前变量的相关信息
 

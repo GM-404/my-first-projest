@@ -46,6 +46,26 @@
     (*var)++;   //这里是对指针指向的值的操作，即对var指向的地址的值进行加1操作  加括号的意思是先取值再加1
 }
 
-//结构体
+//类
+class Player
+{
+public:                          //公共的，这样main函数才能访问到
+    int x, y;
+    int speed;
+};
+void move(Player &player,int x, int y)
+    {
+      player.x += x *player. speed;
+      player.y += y *player.speed;
+    }
+
+    
+    Player player;
+    player.x = 2;
+    player.y = 1;
+    player.speed = 1;
+    move(player, 2, 1);  //移动
+    cout << player.x << " " << player.y << endl;  //输出移动后的位置
+
 
 
