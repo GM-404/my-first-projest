@@ -222,7 +222,7 @@ CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: F:/text/text_many/source/main.
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
 =======
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: F:/text/text_many/source/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward/binders.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bit \
@@ -343,7 +343,7 @@ CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: F:/text/text_many/source/main.
 <<<<<<< HEAD
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
   C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
   C:/mingw64/x86_64-w64-mingw32/include/errno.h \
@@ -368,7 +368,7 @@ CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: F:/text/text_many/source/main.
   F:/text/text_many/include/logs.h \
 =======
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -394,7 +394,7 @@ CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj: F:/text/text_many/source/main.
 <<<<<<< HEAD
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
   F:/text/text_many/include/max.h \
   F:/text/text_many/include/swap.h
 
@@ -605,7 +605,7 @@ C:/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h:
 
 =======
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_ios.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/invoke.h:
@@ -843,7 +843,7 @@ C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 <<<<<<< HEAD
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
@@ -855,7 +855,7 @@ C:/mingw64/x86_64-w64-mingw32/include/ctype.h:
 C:/mingw64/x86_64-w64-mingw32/include/errno.h:
 =======
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 C:/mingw64/x86_64-w64-mingw32/include/corecrt.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
@@ -868,7 +868,7 @@ C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
 <<<<<<< HEAD
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 
 C:/mingw64/x86_64-w64-mingw32/include/limits.h:
 
@@ -883,7 +883,7 @@ C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
 =======
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 C:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/pthread.h:
@@ -894,7 +894,7 @@ C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
 <<<<<<< HEAD
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
@@ -916,7 +916,7 @@ C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
 =======
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
@@ -938,7 +938,7 @@ C:/mingw64/x86_64-w64-mingw32/include/time.h:
 <<<<<<< HEAD
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
@@ -954,7 +954,7 @@ F:/text/text_many/source/main.cpp:
 =======
 >>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
 =======
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 F:/text/text_many/include/max.h:
 
 F:/text/text_many/include/swap.h:
@@ -968,5 +968,5 @@ F:/text/text_many/source/max.cpp:
 =======
 F:/text/text_many/source/max.cpp:
 
->>>>>>> e2c9b39 (1.19日多文件在配置Cmake后成功运行)
+>>>>>>> 63dc3628840f456910a139055ee7a183e79a5b2f
 F:/text/text_many/source/swap.cpp:
