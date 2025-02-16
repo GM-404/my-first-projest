@@ -16,11 +16,6 @@ int the_min_val;
 
 int main (int argc, char **argv)
 {
-    LOG log;
-    log.SetLevel(LogLevelInfo);
-    log.Error("Hello");
-    log.Warn("Hello");  
-    log.Info("Hello");  
     
     //logs_var_before();     //打印出来先前变量的相关信息
 
@@ -29,5 +24,11 @@ int main (int argc, char **argv)
     // logs_var_aftre();      //打印出来后来变量的相关信息
 
     //cin.get();       //输入函数
+
+    // LOG log;
+    // log.SetLevel(LogLevelInfo);
+    // log.Error("Hello");
+    // log.Warn("Hello");  
+    // log.Info("Hello");  
     return 0;
 }

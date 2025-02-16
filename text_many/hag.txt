@@ -67,5 +67,10 @@ void move(Player &player,int x, int y)
     move(player, 2, 1);  //移动
     cout << player.x << " " << player.y << endl;  //输出移动后的位置
 
+//枚举
 
+enum Example  :unsigned int    默认从0开始，你可以指定类型
+{
+   A,B,C
+};
 

@@ -11,9 +11,15 @@ void logs_var_before();
 void logs_var_aftre();     
 
 // 定义日志级别常量
-const int LogLevelError = 0;
-const int LogLevelWarning = 1;
-const int LogLevelInfo = 2;
+enum   InfoLevel : unsigned int
+{
+    InfoLevelError = 0,
+    InfoLevelWarning = 1,
+    InfoLevelInfo = 2
+};
+// const int LogLevelError = 0;
+// const int LogLevelWarning = 1;
+// const int LogLevelInfo = 2;
 
 // 定义了一个类 LOG 用来输出日志信息
 class LOG {
