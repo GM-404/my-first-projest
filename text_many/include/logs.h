@@ -1,6 +1,10 @@
 #ifndef LOGS_H
 #define LOGS_H
 
+//private:   //私有成员  只能自己或者友元函数访问
+//protected:   //保护成员  只能自己或者子类访问
+//public:   //公有成员  谁都可以访问
+
 // 打印提示函数
 void log(const char *msg); 
 // 打印 int 类型的变量
@@ -13,9 +17,9 @@ void logs_var_aftre();
 // 定义日志级别常量
 enum   InfoLevel : unsigned int
 {
-    InfoLevelError = 0,
-    InfoLevelWarning = 1,
-    InfoLevelInfo = 2
+    LogLevelError = 0,
+    LogLevelWarning = 1,
+    LogLevelInfo = 2
 };
 // const int LogLevelError = 0;
 // const int LogLevelWarning = 1;
@@ -32,5 +36,61 @@ public:
     void Warn(const char* message);  // 输出警告信息
     void Info(const char* message);  // 输出一般信息
 };
+//定义了一个类来声明构造函数和析构函数
+class Entity{   
+public:
+    int x, y;
+    Entity() =delete;   //删除默认构造函数   
+    Entity(int val1,int val2);   //构造函数 类似于python中的__init__方法
+    ~Entity();   //析构函数
+};
+
+//定义两个类来声明父类和子类
+class father
+{
+public:
+    int x, y;
+    void print();
+    void print_father_val();
+};
+class son : public father    //声明子类继承父类  认爹
+{
+public:
+    const char* name;        //儿子特有的指针类型
+    void print();
+    void print_son_name(const char* name);
+};
+//主函数书写如下
+/*子类调用子类函数，或者父类不同名函数时直接调用，子类调用父类同名函数时压要加入.father::<函数名>*/
+// son  player;   //声明一个子类对象
+// player.print();   //调用子类的函数
+// player.father::print();   //调用父类的函数
+// player.print_father_val();
+
+//定义两个类来声明父类和子类中的虚函数(即重写函数)   
+//纯虚函数是在基类中声明的虚函数，但是在基类中没有定义，而是强制留给派生类去实现。
+class father_two
+{
+public:
+    //虚函数的作用是允许在派生类中对其进行重写，
+    virtual std::string GetName();   //虚拟的，返回字符串类型的Getname函数,这个函数返回father_two
+    //virtual std::string GetName() const = 0;   //纯虚函数
+};
+class son_two : public father_two
+{
+private:
+    std::string m_name;
+public:
+    son_two(const std::string& name)   //构造函数  接受一个 const std::string& 类型的参数 name   其中&表示引用
+    : m_name(name){};                 //把传入的 name 参数值赋给 m_name以完成初始化，
+    
+    std::string GetName();   //重写了基类 father_two 中的 GetName 函数。
+    //使用 override 关键字明确表示这是对基类虚函数的重写，这样可以让编译器进行检查，如果没有正确重写基类的虚函数，编译器会报错。
+
+};
+//主函数书写如下
+// son_two son("GM");   //声明一个子类对象 son，传入一个字符串参数 "Cherno"。
+// father_two* entity = &son;   //将子类对象 son 的地址赋值给基类指针 entity。
+// std::cout << entity->GetName() << std::endl;   //调用基类指针 entity 的 GetName 函数，输出 "GM"。
 
 #endif
