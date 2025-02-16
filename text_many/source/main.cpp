@@ -16,6 +16,7 @@ int the_min_val;
 
 int main (int argc, char **argv)
 {
+    cout << "Hello, World!" << endl;   //输出Hello, World!
     
     //logs_var_before();     //打印出来先前变量的相关信息
 
