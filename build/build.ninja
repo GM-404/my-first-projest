@@ -77,6 +77,13 @@ build CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj: CXX_COMPILER__my_cmake_s
   OBJECT_DIR = CMakeFiles\my_cmake_swap.dir
   OBJECT_FILE_DIR = CMakeFiles\my_cmake_swap.dir\source
 
+build CMakeFiles/my_cmake_swap.dir/source/string.cpp.obj: CXX_COMPILER__my_cmake_swap_unscanned_Debug F$:/text/text_many/source/string.cpp || cmake_object_order_depends_target_my_cmake_swap
+  DEP_FILE = CMakeFiles\my_cmake_swap.dir\source\string.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IF:/text/text_many/include
+  OBJECT_DIR = CMakeFiles\my_cmake_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_cmake_swap.dir\source
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target my_cmake_swap
@@ -85,7 +92,7 @@ build CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj: CXX_COMPILER__my_cmake_s
 #############################################
 # Link the executable my_cmake_swap.exe
 
-build my_cmake_swap.exe: CXX_EXECUTABLE_LINKER__my_cmake_swap_Debug CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj
+build my_cmake_swap.exe: CXX_EXECUTABLE_LINKER__my_cmake_swap_Debug CMakeFiles/my_cmake_swap.dir/source/main.cpp.obj CMakeFiles/my_cmake_swap.dir/source/swap.cpp.obj CMakeFiles/my_cmake_swap.dir/source/max.cpp.obj CMakeFiles/my_cmake_swap.dir/source/logs.cpp.obj CMakeFiles/my_cmake_swap.dir/source/string.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\my_cmake_swap.dir

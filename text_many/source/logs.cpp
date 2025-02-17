@@ -28,10 +28,10 @@ void logs_var_before()
     std::cout << "val3 = " << val3 << std::endl;
     std::cout << "val4 = " << val4 << std::endl;
     std::cout << "val5 = " << val5 << std::endl;
-    std::cout << "val1 val2 size: " << sizeof(val1) << std::endl;
-    std::cout << "val3 size: " << sizeof(val3) << std::endl;
-    std::cout << "val4 size: " << sizeof(val4) << std::endl;
-    std::cout << "val5 size: " << sizeof(val5) << std::endl;
+    std::cout << "int size: " << sizeof(val1) << std::endl;
+    std::cout << "float size: " << sizeof(val3) << std::endl;
+    std::cout << "double size: " << sizeof(val4) << std::endl;
+    std::cout << "bool size: " << sizeof(val5) << std::endl;
 }
 
 // 设置日志级别

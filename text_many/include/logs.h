@@ -4,7 +4,10 @@
 //private:   //私有成员  只能自己或者友元函数访问
 //protected:   //保护成员  只能自己或者子类访问
 //public:   //公有成员  谁都可以访问
-
+ 
+//以*为分界，const在左边就是内容不能变，在右边是地址不能变  （靠近谁锁谁）
+//const int* a;   //指针的内容不能变    也就是不用*a = 2;这样的操作    指针，锁定！
+//int* const a;   //指针的地址不能变    也就是不用a = &b;这样的操作    锁定地址，
 // 打印提示函数
 void log(const char *msg); 
 // 打印 int 类型的变量
@@ -93,4 +96,16 @@ public:
 // father_two* entity = &son;   //将子类对象 son 的地址赋值给基类指针 entity。
 // std::cout << entity->GetName() << std::endl;   //调用基类指针 entity 的 GetName 函数，输出 "GM"。
 
+//const的类里面的锁定使用   这个时候只有定义成 const entity e;这个才能使用 e.GetName(); 可以使用mutable关键字来改变这一情况
+class entity 
+{
+private:
+    std :: string m_Name;
+    mutable int a  = 0 ;  //可改变的
+public:
+    const std::string& GetName() const 
+    {
+        return  m_Name;
+    }
+};
 #endif

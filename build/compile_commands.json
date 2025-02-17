@@ -22,5 +22,11 @@
   "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/text/text_many/include -g -o CMakeFiles\\my_cmake_swap.dir\\source\\logs.cpp.obj -c F:\\text\\text_many\\source\\logs.cpp",
   "file": "F:\\text\\text_many\\source\\logs.cpp",
   "output": "CMakeFiles\\my_cmake_swap.dir\\source\\logs.cpp.obj"
+},
+{
+  "directory": "F:/text/build",
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/text/text_many/include -g -o CMakeFiles\\my_cmake_swap.dir\\source\\string.cpp.obj -c F:\\text\\text_many\\source\\string.cpp",
+  "file": "F:\\text\\text_many\\source\\string.cpp",
+  "output": "CMakeFiles\\my_cmake_swap.dir\\source\\string.cpp.obj"
 }
 ]
