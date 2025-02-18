@@ -2,6 +2,7 @@
 #include <array>           //包含头文件array
 #include <string>          //包含头文件string
 #include <stdlib.h>        //包含头文件stdlib
+#include <memory>          //包含头文件memory   //智能指针
 #include "swap.h"
 #include "max.h"
 #include "logs.h"

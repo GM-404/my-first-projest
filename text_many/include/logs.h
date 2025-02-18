@@ -47,6 +47,28 @@ public:
     Entity(int val1,int val2);   //构造函数 类似于python中的__init__方法
     ~Entity();   //析构函数
 };
+//定义一个类来说明可以构造两个构造函数
+class entity_one
+{
+private:
+       int m_Score;
+       std::string m_Name;
+public:
+       entity_one()
+              : m_Name("GM"), m_Score(0) {}    //构造函数初始化成员变量
+       entity_one(const std::string& name)
+              : m_Name(name), m_Score(0) {}    //构造函数初始化变量
+       void Get_name() const
+       {
+            std::cout << m_Name << std::endl;
+       }
+};
+//主函数如下
+// entity_one e1;
+// entity_one e2("Cherno");
+// 输出两个人名
+// e1.Get_name();
+// e2.Get_name();
 
 //定义两个类来声明父类和子类
 class father

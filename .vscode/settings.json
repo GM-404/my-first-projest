@@ -109,7 +109,8 @@
     "format": "cpp",
     "numbers": "cpp",
     "span": "cpp",
-    "text_encoding": "cpp"
+    "text_encoding": "cpp",
+    "cstring": "cpp"
   },
   "cmake.sourceDirectory": "F:/text/text_many"
 }
