@@ -74,3 +74,27 @@ enum Example  :unsigned int    默认从0开始，你可以指定类型
    A,B,C
 };
 
+
+int main (int argc, char **argv)
+{
+ int a = 5;
+    a = 2;
+
+    const char* name = u8"gaoming";
+    const wchar_t* wname = L"gaoming";
+    const char16_t* name16 = u"gaoming";
+    const char32_t* name32 = U"gaoming";
+    std::string name1 = "gao"s+"ming";
+    const char* example = R"(Line 1     
+    Line 2  
+    Line 3)";
+    //加***可以避免转义字符的使用
+    const char* example2 = R"***(
+    Line 1
+    Line 2
+    Line 3
+    )***";
+    cout << example << endl;
+    cout << example2 << endl;
+    return 0;
+}
