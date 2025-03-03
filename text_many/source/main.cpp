@@ -1,44 +1,54 @@
-#include <iostream>        //åŒ…å«å¤´æ–‡ä»¶iostream
-#include <array>           //åŒ…å«å¤´æ–‡ä»¶array
-#include <string>          //åŒ…å«å¤´æ–‡ä»¶string
-#include <stdlib.h>        //åŒ…å«å¤´æ–‡ä»¶stdlib
-#include <memory>          //åŒ…å«å¤´æ–‡ä»¶memory   //æ™ºèƒ½æŒ‡é’ˆ
+#include <iostream>        //°üº¬Í·ÎÄ¼şiostream
+#include <array>           //°üº¬Í·ÎÄ¼şarray
+#include <string>          //°üº¬Í·ÎÄ¼şstring
+#include <stdlib.h>        //°üº¬Í·ÎÄ¼şstdlib
+#include <memory>          //°üº¬Í·ÎÄ¼şmemory   //ÖÇÄÜÖ¸Õë
 #include "swap.h"
 #include "max.h"
 #include "logs.h"
 #include "string.h"
+#include <cctype>           //°üº¬Í·ÎÄ¼şcctype
 
+// È«¾Ö±äÁ¿
+int val1;
+int val2;
+float val3;
+double val4;
+bool val5;
 
-using namespace std;       //ä½¿ç”¨æ ‡å‡†å‘½åç©ºé—´
-
-
-
-//å®šä¹‰å…¨å±€å˜é‡
-int val1 = 1;
-int val2 = 2;
-float  val3 = 10.3f;
-double val4 = 10.3;
-bool val5 = true;
-int the_max_val;
-int the_min_val;
-
+class  Entity_ptr
+{
+public:
+    Entity_ptr()
+    {
+        std::cout << "Created Entity!" << std::endl;
+    }
+    ~Entity_ptr()
+    {
+        std::cout << "Destroyed Entity!" << std::endl;
+    }
+    void Print()
+    {
+        std::cout << "Hello!" << std::endl;
+    }
+};
+using namespace std;       //Ê¹ÓÃ±ê×¼ÃüÃû¿Õ¼ä
 
 int main (int argc, char **argv)
 {
 
-    //logs_var_before();     //æ‰“å°å‡ºæ¥å…ˆå‰å˜é‡çš„ç›¸å…³ä¿¡æ¯
+    {
+        std::unique_ptr<Entity_ptr> entity = std::make_unique<Entity_ptr>();    //´´½¨Ò»¸öÖÇÄÜÖ¸Õë
+        
+        entity->Print();
+    }
 
-    // swap(val1, val2);   //äº¤æ¢ä¸¤ä¸ªå˜é‡çš„å€¼  
+    std::shared_ptr<Entity_ptr> sharedEntity2;    //´´½¨Ò»¸ö¹²ÏíÖ¸Õë¸´ÖÆÉÏÄÚÈİ
+    {
+        std::shared_ptr<Entity_ptr> sharedEntity = std::make_shared<Entity_ptr>();    //´´½¨Ò»¸ö¹²ÏíÖ¸Õë
+        sharedEntity2 = sharedEntity;    //¸´ÖÆÉÏÄÚÈİ
 
-    // logs_var_aftre();      //æ‰“å°å‡ºæ¥åæ¥å˜é‡çš„ç›¸å…³ä¿¡æ¯
-
-    //cin.get();       //è¾“å…¥å‡½æ•°
-
-    // LOG log;
-    // log.SetLevel(LogLevelInfo);
-    // log.Error("Hello");
-    // log.Warn("Hello");  
-    // log.Info("Hello");  
-
+    }
+    std::cin.get();
     return 0;
 }
